@@ -17,12 +17,12 @@
      <br>
      <br>
      <span class="btn" onclick="clearInput()">Clear</span>
+     <br>
+     <br>
+     <span class="btn" onclick="copyOutput()">Copy</span>
     </div>
     <div class="after">
       <textarea id="output"></textarea>
-    </div>
-    <div class="option">
-      <span class="btn" onclick="copyOutput()">Copy</span>
     </div>
   </div>
   <style>
@@ -65,6 +65,7 @@
                       .replace(/pαn/g, '盘')
                       .replace(/feng/g, '封')
                       .replace(/cang/g, '仓')
+                      .replace(/Zi/g, '资')
                       .replace(/&nbsp;/g, '')
                       .replace(/<br\/>/g, '\r')
 
